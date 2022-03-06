@@ -1,0 +1,35 @@
+
+Get http://localhost:4000/api/reguistros
+#### fer que es reguistrin normal i ja despres una opció de que si volen participar en el ranking de instagram dons els i demanara el seu IG
+POST http://localhost:4000/api/reguistros
+Content-Type: application/json
+
+{
+    "name": "arnau",
+    "ig": "arnau_noguer",
+    "foto": "GG"
+}
+
+###
+GET  http://localhost:4000/api/status
+
+### 
+POST http://localhost:4000/api/status
+Content-Type: application/json
+
+{
+    "ig": "naget",
+    "followers": 100000,
+    "posts": 4
+    
+}
+
+###
+
+DELETE http://localhost:4000/api/reguistros/60e3124563475c3c2849060b
+###
+
+GET http://localhost:4000/api/reguistros/60e432dd928e9f466c734c1c
+###
+
+
